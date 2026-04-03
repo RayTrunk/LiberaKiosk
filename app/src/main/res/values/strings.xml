@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Libera Kiosk</string>
+    
+    <!-- Permission Activity -->
+    <string name="permission_title">Permission Setup</string>
+    <string name="permission_subtitle">Grant all required permissions for kiosk mode</string>
+    <string name="permission_overlay">Overlay Permission</string>
+    <string name="permission_overlay_desc">Required for settings access button</string>
+    <string name="permission_write_settings">Write Settings</string>
+    <string name="permission_write_settings_desc">Required for brightness control</string>
+    <string name="permission_install_apps">Install Apps</string>
+    <string name="permission_install_apps_desc">Required for APK installation</string>
+    <string name="permission_camera">Camera Permission</string>
+    <string name="permission_camera_desc">Required for WebView camera access</string>
+    <string name="permission_microphone">Microphone Permission</string>
+    <string name="permission_microphone_desc">Required for WebView audio access</string>
+    <string name="permission_device_owner">Device Owner</string>
+    <string name="permission_device_owner_desc">Enable full kiosk lockdown</string>
+    <string name="permission_granted">Granted</string>
+    <string name="permission_denied">Denied</string>
+    <string name="permission_grant">Grant</string>
+    <string name="permission_setup_adb">Setup via ADB</string>
+    <string name="permission_start_kiosk">Start Kiosk Mode</string>
+    <string name="permission_all_granted">All permissions granted!</string>
+    <string name="permission_some_missing">Some permissions missing</string>
+    
+    <!-- Settings Activity -->
+    <string name="settings_title">Kiosk Settings</string>
+    <string name="settings_section_display">Display Mode</string>
+    <string name="settings_section_url">URL Settings</string>
+    <string name="settings_section_external_app">External App Mode</string>
+    <string name="settings_section_security">Security</string>
+    <string name="settings_section_screen">Screen Settings</string>
+    <string name="settings_section_schedule">Schedule</string>
+    <string name="settings_section_admin">Web Administration</string>
+    <string name="settings_section_system">System</string>
+    <string name="settings_section_language">Language</string>
+    
+    <string name="settings_url_mode">URL Mode</string>
+    <string name="settings_external_app_mode">External App Mode</string>
+    <string name="settings_kiosk_url">Kiosk URL</string>
+    <string name="settings_desktop_mode">Desktop User-Agent</string>
+    <string name="settings_auto_reload">Auto Reload on Error</string>
+    <string name="settings_inactivity_reload">Inactivity Reload (seconds)</string>
+    <string name="settings_show_nav_buttons">Show Navigation Buttons</string>
+    <string name="settings_trust_ssl">Trust All SSL Certificates</string>
+    <string name="settings_clear_ssl">Clear Saved SSL Certificates</string>
+    
+    <string name="settings_select_app">Select App</string>
+    <string name="settings_selected_app">Selected App</string>
+    <string name="settings_no_app_selected">No app selected</string>
+    <string name="settings_start_app">Start App</string>
+    <string name="settings_stop_app">Stop App</string>
+    <string name="settings_restart_app">Restart App</string>
+    
+    <string name="settings_pin_code">PIN Code (4-6 digits)</string>
+    <string name="settings_max_pin_attempts">Max PIN Attempts</string>
+    <string name="settings_exit_taps">Exit Taps (3-20)</string>
+    <string name="settings_test_mode">Test Mode (Back Button Enabled)</string>
+    
+    <string name="settings_brightness">Brightness (%)</string>
+    <string name="settings_screen_always_on">Screen Always On</string>
+    <string name="settings_fullscreen">Fullscreen Mode</string>
+    <string name="settings_show_status_bar">Show Status Bar</string>
+    <string name="settings_screensaver_enabled">Enable Screensaver</string>
+    <string name="settings_screensaver_timeout">Screensaver Timeout (seconds)</string>
+    <string name="settings_screensaver_url">Screensaver URL (empty = black)</string>
+    
+    <string name="settings_screen_off_enabled">Screen Off Schedule</string>
+    <string name="settings_screen_off_time">Screen Off Time</string>
+    <string name="settings_screen_on_time">Screen On Time</string>
+    <string name="settings_daily_reboot">Daily Reboot</string>
+    <string name="settings_reboot_time">Reboot Time</string>
+    <string name="settings_time_format_24h">24-Hour Time Format</string>
+    
+    <string name="settings_admin_enabled">Enable Web Administration</string>
+    <string name="settings_admin_port">Admin Port</string>
+    <string name="settings_admin_password">Admin Password</string>
+    <string name="settings_admin_url">Admin URL</string>
+    
+    <string name="settings_wifi_settings">WiFi Settings</string>
+    <string name="settings_device_owner_status">Device Owner Status</string>
+    <string name="settings_remove_device_owner">Remove Device Owner</string>
+    <string name="settings_reset_settings">Reset All Settings</string>
+    <string name="settings_app_version">App Version</string>
+    
+    <string name="settings_save">Save Settings</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="settings_cancel">Cancel</string>
+    
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_german">Deutsch</string>
+    
+    <!-- App Management -->
+    <string name="settings_section_apps">App Management</string>
+    <string name="settings_install_apk">Install APK</string>
+    <string name="settings_update_app">Update App</string>
+    <string name="settings_uninstall_app">Uninstall App</string>
+    <string name="settings_select_apk">Select APK File</string>
+    <string name="settings_app_uninstalled">App uninstalled</string>
+    <string name="settings_app_installed">App installed</string>
+    <string name="settings_confirm_uninstall">Confirm Uninstall</string>
+    <string name="settings_uninstall_message">Do you want to uninstall this app?</string>
+    
+    <!-- Certificate -->
+    <string name="settings_section_certificate">HTTPS Certificate</string>
+    <string name="settings_https_enabled">Enable HTTPS for Admin</string>
+    <string name="settings_import_certificate">Import Certificate</string>
+    <string name="settings_generate_certificate">Generate Self-Signed</string>
+    <string name="settings_certificate_info">Certificate Info</string>
+    <string name="settings_no_certificate">No custom certificate</string>
+    
+    <!-- PIN Dialog -->
+    <string name="pin_dialog_title">Enter PIN</string>
+    <string name="pin_dialog_message">Enter your PIN to access settings</string>
+    <string name="pin_incorrect">Incorrect PIN</string>
+    <string name="pin_attempts_remaining">%d attempts remaining</string>
+    <string name="pin_locked">Too many failed attempts</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">OK</string>
+    
+    <!-- Web Admin -->
+    <string name="admin_title">Libera Kiosk Admin</string>
+    <string name="admin_live_view">Live View</string>
+    <string name="admin_settings">Settings</string>
+    <string name="admin_apps">Apps</string>
+    <string name="admin_status">Status</string>
+    <string name="admin_reload">Reload</string>
+    <string name="admin_reboot">Reboot Device</string>
+    <string name="admin_screenshot">Screenshot</string>
+    <string name="admin_upload_apk">Upload APK</string>
+    <string name="admin_battery">Battery</string>
+    <string name="admin_wifi">WiFi</string>
+    <string name="admin_uptime">Uptime</string>
+    <string name="admin_device_owner">Device Owner</string>
+    <string name="admin_login">Login</string>
+    <string name="admin_logout">Logout</string>
+    <string name="admin_password_placeholder">Password</string>
+    <string name="admin_wrong_password">Wrong password</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Kiosk Service</string>
+    <string name="notification_admin_running">Web Administration Running</string>
+    <string name="notification_admin_port">Port: %d</string>
+    
+    <!-- Errors -->
+    <string name="error_loading_page">Error loading page</string>
+    <string name="error_no_connection">No internet connection</string>
+    <string name="error_ssl_certificate">SSL Certificate Error</string>
+    <string name="error_app_not_found">App not found</string>
+    <string name="error_install_failed">Installation failed</string>
+</resources>

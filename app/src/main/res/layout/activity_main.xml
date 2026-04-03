@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <FrameLayout
+        android:id="@+id/webViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="top"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="@color/primary"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <!-- Navigation Buttons -->
+    <LinearLayout
+        android:id="@+id/navButtonsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/nav_buttons_bg"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btnNavBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/nav_button_bg"
+            android:contentDescription="Back"
+            android:src="@drawable/ic_nav_back"
+            android:padding="12dp" />
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="1dp" />
+
+        <ImageButton
+            android:id="@+id/btnNavForward"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/nav_button_bg"
+            android:contentDescription="Forward"
+            android:src="@drawable/ic_nav_forward"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

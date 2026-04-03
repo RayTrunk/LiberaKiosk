@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Libera Kiosk</string>
+    
+    <!-- Permission Activity -->
+    <string name="permission_title">Berechtigungen einrichten</string>
+    <string name="permission_subtitle">Alle erforderlichen Berechtigungen für den Kiosk-Modus erteilen</string>
+    <string name="permission_overlay">Overlay-Berechtigung</string>
+    <string name="permission_overlay_desc">Erforderlich für Einstellungs-Button</string>
+    <string name="permission_write_settings">Einstellungen schreiben</string>
+    <string name="permission_write_settings_desc">Erforderlich für Helligkeitssteuerung</string>
+    <string name="permission_install_apps">Apps installieren</string>
+    <string name="permission_install_apps_desc">Erforderlich für APK-Installation</string>
+    <string name="permission_camera">Kamera-Berechtigung</string>
+    <string name="permission_camera_desc">Erforderlich für WebView-Kamerazugriff</string>
+    <string name="permission_microphone">Mikrofon-Berechtigung</string>
+    <string name="permission_microphone_desc">Erforderlich für WebView-Audiozugriff</string>
+    <string name="permission_device_owner">Geräte-Eigentümer</string>
+    <string name="permission_device_owner_desc">Vollständige Kiosk-Sperre aktivieren</string>
+    <string name="permission_granted">Erteilt</string>
+    <string name="permission_denied">Verweigert</string>
+    <string name="permission_grant">Erteilen</string>
+    <string name="permission_setup_adb">Über ADB einrichten</string>
+    <string name="permission_start_kiosk">Kiosk-Modus starten</string>
+    <string name="permission_all_granted">Alle Berechtigungen erteilt!</string>
+    <string name="permission_some_missing">Einige Berechtigungen fehlen</string>
+    
+    <!-- Settings Activity -->
+    <string name="settings_title">Kiosk-Einstellungen</string>
+    <string name="settings_section_display">Anzeigemodus</string>
+    <string name="settings_section_url">URL-Einstellungen</string>
+    <string name="settings_section_external_app">Externe App Modus</string>
+    <string name="settings_section_security">Sicherheit</string>
+    <string name="settings_section_screen">Bildschirm-Einstellungen</string>
+    <string name="settings_section_schedule">Zeitplan</string>
+    <string name="settings_section_admin">Web-Administration</string>
+    <string name="settings_section_system">System</string>
+    <string name="settings_section_language">Sprache</string>
+    
+    <string name="settings_url_mode">URL-Modus</string>
+    <string name="settings_external_app_mode">Externe App Modus</string>
+    <string name="settings_kiosk_url">Kiosk-URL</string>
+    <string name="settings_desktop_mode">Desktop User-Agent</string>
+    <string name="settings_auto_reload">Automatisches Neuladen bei Fehler</string>
+    <string name="settings_inactivity_reload">Inaktivitäts-Neuladen (Sekunden)</string>
+    <string name="settings_show_nav_buttons">Navigationsschaltflächen anzeigen</string>
+    <string name="settings_trust_ssl">Allen SSL-Zertifikaten vertrauen</string>
+    <string name="settings_clear_ssl">Gespeicherte SSL-Zertifikate löschen</string>
+    
+    <string name="settings_select_app">App auswählen</string>
+    <string name="settings_selected_app">Ausgewählte App</string>
+    <string name="settings_no_app_selected">Keine App ausgewählt</string>
+    <string name="settings_start_app">App starten</string>
+    <string name="settings_stop_app">App stoppen</string>
+    <string name="settings_restart_app">App neu starten</string>
+    
+    <string name="settings_pin_code">PIN-Code (4-6 Ziffern)</string>
+    <string name="settings_max_pin_attempts">Max. PIN-Versuche</string>
+    <string name="settings_exit_taps">Exit-Tipps (3-20)</string>
+    <string name="settings_test_mode">Testmodus (Zurück-Taste aktiv)</string>
+    
+    <string name="settings_brightness">Helligkeit (%)</string>
+    <string name="settings_screen_always_on">Bildschirm immer an</string>
+    <string name="settings_fullscreen">Vollbildmodus</string>
+    <string name="settings_show_status_bar">Statusleiste anzeigen</string>
+    <string name="settings_screensaver_enabled">Bildschirmschoner aktivieren</string>
+    <string name="settings_screensaver_timeout">Bildschirmschoner-Timeout (Sekunden)</string>
+    <string name="settings_screensaver_url">Bildschirmschoner-URL (leer = schwarz)</string>
+    
+    <string name="settings_screen_off_enabled">Bildschirm-Aus-Zeitplan</string>
+    <string name="settings_screen_off_time">Bildschirm-Aus-Zeit</string>
+    <string name="settings_screen_on_time">Bildschirm-An-Zeit</string>
+    <string name="settings_daily_reboot">Täglicher Neustart</string>
+    <string name="settings_reboot_time">Neustart-Zeit</string>
+    <string name="settings_time_format_24h">24-Stunden-Zeitformat</string>
+    
+    <string name="settings_admin_enabled">Web-Administration aktivieren</string>
+    <string name="settings_admin_port">Admin-Port</string>
+    <string name="settings_admin_password">Admin-Passwort</string>
+    <string name="settings_admin_url">Admin-URL</string>
+    
+    <string name="settings_wifi_settings">WLAN-Einstellungen</string>
+    <string name="settings_device_owner_status">Geräte-Eigentümer-Status</string>
+    <string name="settings_remove_device_owner">Geräte-Eigentümer entfernen</string>
+    <string name="settings_reset_settings">Alle Einstellungen zurücksetzen</string>
+    <string name="settings_app_version">App-Version</string>
+    
+    <string name="settings_save">Einstellungen speichern</string>
+    <string name="settings_saved">Einstellungen gespeichert</string>
+    <string name="settings_cancel">Abbrechen</string>
+    
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_german">Deutsch</string>
+    
+    <!-- App Management -->
+    <string name="settings_section_apps">App-Verwaltung</string>
+    <string name="settings_install_apk">APK installieren</string>
+    <string name="settings_update_app">App aktualisieren</string>
+    <string name="settings_uninstall_app">App deinstallieren</string>
+    <string name="settings_select_apk">APK-Datei auswählen</string>
+    <string name="settings_app_uninstalled">App deinstalliert</string>
+    <string name="settings_app_installed">App installiert</string>
+    <string name="settings_confirm_uninstall">Deinstallation bestätigen</string>
+    <string name="settings_uninstall_message">Möchten Sie diese App deinstallieren?</string>
+    
+    <!-- Certificate -->
+    <string name="settings_section_certificate">HTTPS-Zertifikat</string>
+    <string name="settings_https_enabled">HTTPS für Admin aktivieren</string>
+    <string name="settings_import_certificate">Zertifikat importieren</string>
+    <string name="settings_generate_certificate">Selbstsigniert generieren</string>
+    <string name="settings_certificate_info">Zertifikat-Info</string>
+    <string name="settings_no_certificate">Kein eigenes Zertifikat</string>
+    
+    <!-- PIN Dialog -->
+    <string name="pin_dialog_title">PIN eingeben</string>
+    <string name="pin_dialog_message">Geben Sie Ihre PIN ein, um auf die Einstellungen zuzugreifen</string>
+    <string name="pin_incorrect">PIN falsch</string>
+    <string name="pin_attempts_remaining">%d Versuche verbleibend</string>
+    <string name="pin_locked">Zu viele fehlgeschlagene Versuche</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_confirm">Bestätigen</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="dialog_no">Nein</string>
+    <string name="dialog_ok">OK</string>
+    
+    <!-- Web Admin -->
+    <string name="admin_title">Libera Kiosk Admin</string>
+    <string name="admin_live_view">Live-Ansicht</string>
+    <string name="admin_settings">Einstellungen</string>
+    <string name="admin_apps">Apps</string>
+    <string name="admin_status">Status</string>
+    <string name="admin_reload">Neu laden</string>
+    <string name="admin_reboot">Gerät neu starten</string>
+    <string name="admin_screenshot">Bildschirmfoto</string>
+    <string name="admin_upload_apk">APK hochladen</string>
+    <string name="admin_battery">Akku</string>
+    <string name="admin_wifi">WLAN</string>
+    <string name="admin_uptime">Laufzeit</string>
+    <string name="admin_device_owner">Geräte-Eigentümer</string>
+    <string name="admin_login">Anmelden</string>
+    <string name="admin_logout">Abmelden</string>
+    <string name="admin_password_placeholder">Passwort</string>
+    <string name="admin_wrong_password">Falsches Passwort</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Kiosk-Dienst</string>
+    <string name="notification_admin_running">Web-Administration läuft</string>
+    <string name="notification_admin_port">Port: %d</string>
+    
+    <!-- Errors -->
+    <string name="error_loading_page">Fehler beim Laden der Seite</string>
+    <string name="error_no_connection">Keine Internetverbindung</string>
+    <string name="error_ssl_certificate">SSL-Zertifikat-Fehler</string>
+    <string name="error_app_not_found">App nicht gefunden</string>
+    <string name="error_install_failed">Installation fehlgeschlagen</string>
+</resources>
